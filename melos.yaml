@@ -1,0 +1,13 @@
+name: flutter_build_version_package
+
+packages:
+  - flutter_build_version
+  - flutter_build_version_generator
+
+command:
+  bootstrap:
+    usePubspecOverrides: true
+
+scripts:
+  analyze:
+    exec: dart analyze .

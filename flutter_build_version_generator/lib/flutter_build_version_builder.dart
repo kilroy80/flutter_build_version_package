@@ -63,10 +63,10 @@ class FlutterBuildVersionGenerator
 part of '$originalFileName';
 
 class $implClassName extends $abstractClassName {
-  static const String flutter = '$flutterVersion';
-  static const String channel = '$flutterChannel';
-  static const String dart = '$dartVersion';
-  static const String devTools = '$devToolsVersion';
+  static const String flutterVersion = '$flutterVersion';
+  static const String flutterChannel = '$flutterChannel';
+  static const String dartVersion = '$dartVersion';
+  static const String devToolsVersion = '$devToolsVersion';
 }
 ''';
   }

@@ -49,10 +49,10 @@ abstract class _AppVersion {}
 part of 'app_version.dart';
 
 class AppVersion extends _AppVersion {
-  static const String flutter = '3.38.4';
-  static const String channel = 'stable';
-  static const String dart = '3.10.3';
-  static const String devTools = '2.51.1';
+  static const String flutterVersion = '3.38.4';
+  static const String flutterChannel = 'stable';
+  static const String dartVersion = '3.10.3';
+  static const String devToolsVersion = '2.51.1';
 }
 ```
 

@@ -5,10 +5,10 @@ import 'package:flutter_build_version/flutter_build_version.dart';
 part 'main.gb.dart';
 
 void main() async {
-  print('Build flutter Version  = ${BuildVersion.flutter}');
-  print('Build flutter Channel  = ${BuildVersion.channel}');
-  print('Build Dart Version     = ${BuildVersion.dart}, ${Platform.version}');
-  print('Build DevTools Version = ${BuildVersion.devTools}');
+  print('Build flutter Version  = ${BuildVersion.flutterVersion}');
+  print('Build flutter Channel  = ${BuildVersion.flutterChannel}');
+  print('Build Dart Version     = ${BuildVersion.dartVersion}, ${Platform.version.split(' ').first}');
+  print('Build DevTools Version = ${BuildVersion.devToolsVersion}');
 }
 
 @GenerateBuildVersion()
