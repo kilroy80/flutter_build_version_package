@@ -20,8 +20,8 @@ import 'package:meta/meta.dart';
 /// After running, generate file use
 ///
 /// ```dart
-/// debugPrint(AppVersion.flutter); // e.g. "3.38.0"
-/// debugPrint(AppVersion.dart);    // e.g. "3.10.1"
+/// debugPrint(AppVersion.flutterVersion); // e.g. "3.38.0"
+/// debugPrint(AppVersion.dartVersion);    // e.g. "3.10.1"
 /// ```
 ///
 /// const [GenerateBuildVersion] Annotation
