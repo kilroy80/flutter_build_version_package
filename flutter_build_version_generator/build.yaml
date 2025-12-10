@@ -1,0 +1,7 @@
+builders:
+  flutter_build_version_builder:
+    import: "package:flutter_build_version_generator/builder.dart"
+    builder_factories: ["flutterBuildVersionBuilderFactory"]
+    build_extensions: {".dart": [".g.dart"]}
+    auto_apply: dependents
+    build_to: source
