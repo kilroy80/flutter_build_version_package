@@ -28,6 +28,9 @@ dependencies:
       path: "flutter_build_version"
 
 dev_dependencies:
+  # lastest version used
+  build_runner: ^2.6.0 
+  
   flutter_build_version_generator:
     git:
       url: https://github.com/kilroy80/flutter_build_version

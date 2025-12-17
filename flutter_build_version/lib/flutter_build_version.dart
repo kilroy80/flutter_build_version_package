@@ -1,4 +1,5 @@
 import 'package:meta/meta.dart';
+import 'package:meta/meta_meta.dart';
 
 /// Example usage of @GenerateBuildVersion()
 ///
@@ -26,6 +27,7 @@ import 'package:meta/meta.dart';
 ///
 /// const [GenerateBuildVersion] Annotation
 @immutable
+@Target({TargetKind.classType})
 class GenerateBuildVersion {
   const GenerateBuildVersion();
 }
