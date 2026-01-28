@@ -84,8 +84,9 @@ class ProcessExecute {
 
   Future<Map<String, dynamic>> run() async {
     if (_versionJson.isEmpty) {
+      var command = Platform.isWindows ? 'flutter.bat' : 'flutter';
       final result = await Process.run(
-        'flutter',
+        command,
         ['--version', '--machine'],
         runInShell: true,
       );
